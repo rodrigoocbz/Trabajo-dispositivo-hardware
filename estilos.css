@@ -5,10 +5,10 @@ body{
 }
 
 header {
-    background-color: rgb(142, 249, 142);
+    background-color: rgb(207, 244, 207);
     padding: 20px;
     text-align: center;
-    margin: -20px
+    margin: -20px,
 }
 
 main nav{
@@ -20,8 +20,9 @@ main nav{
 
 h1 {
     color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
 }
-
 footer {
     background-color: rgb(142, 249, 142);
     padding: 20px;
@@ -33,12 +34,9 @@ footer {
 
 h3 {
     color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-p {
-    color:aliceblue;
-}
 
 a {
     color: #9B59B6;
@@ -52,30 +50,27 @@ img {
 
 
 .descripcion{
-    margin: 40px 0; 
-    padding: 20px;  
-    border: 1px solid grey; 
-    border-radius: 8px; 
+    margin: 40px 0;
+    padding: 20px;
 }
+    
+
 
 .funcionamiento{
     margin: 40px 0; 
     padding: 20px;  
-    border: 1px solid grey; 
-    border-radius: 90px; 
+
 }
 
 .beneficios{
     margin: 40px 0; 
     padding: 20px;  
-    border: 1px solid grey; 
-    border-radius: 80px; 
+  
 }
 .evolucion{
     margin: 40px 0; 
     padding: 20px;  
-    border: 1px solid grey; 
-    border-radius: 100px; 
+
 }
 
 .enlace{
@@ -86,13 +81,15 @@ h2 {
     color: black;
     font-size: 24px;
     margin-bottom: 15px;
+    font-family:   'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 p, ul {
     color: black;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 1.6;
+    font-family:   'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 
@@ -117,10 +114,33 @@ nav ul li a {
     color: black;
     text-decoration: none;
     font-weight: bold;
+    font-family:   'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 img {
     display: block;
     margin: 20px auto;
-    border-radius: 8px;
+    border-radius: 80px;
+    width: 500px;
 }
+
+.descripcion h2{
+    text-align: center;
+}
+
+.funcionamiento h2{
+    text-align: center;
+}
+.beneficios h2{
+    text-align: center;
+}
+
+.evolucion h2{
+    text-align: center;
+}
+
+
+img2{
+    width: 500px;
+}
+
